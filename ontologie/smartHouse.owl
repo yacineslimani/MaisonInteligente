@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ohb/ontologies/2016/11/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ohb/ontologies/2016/11/untitled-ontology-14">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Jardin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arroseur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fournitures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humidite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Binaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intervalle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lampe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperaturePref"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chambre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalleDeBain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maison"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mouvement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fumee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fenetre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telephone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climatiseur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lumiere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LumierePref"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deshumificateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horloge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TvPref"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chauffage"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alarme"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arroseur"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binaire"/>
+        <Class IRI="#Etat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capteur"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chambre"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chauffage"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climatiseur"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuisine"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deshumificateur"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fenetre"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fournitures"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fumee"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garage"/>
+        <Class IRI="#Maison"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaz"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horloge"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humidite"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intervalle"/>
+        <Class IRI="#Etat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jardin"/>
+        <Class IRI="#Maison"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lampe"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lumiere"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LumierePref"/>
+        <Class IRI="#Preferences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mouvement"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objets"/>
+        <Class IRI="#Maison"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piece"/>
+        <Class IRI="#Maison"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porte"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalleDeBain"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salon"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TV"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telephone"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperaturePref"/>
+        <Class IRI="#Preferences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TvPref"/>
+        <Class IRI="#Preferences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volet"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
