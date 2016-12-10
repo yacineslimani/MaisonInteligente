@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ohb/ontologies/2016/11/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ohb/ontologies/2016/11/untitled-ontology-14">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#seTrouveDansCuisine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possede"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arroseur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seTrouveDansJardin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Binaire"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GaragePossede"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BainPossede"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chambre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalleDeBain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mouvement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fenetre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localisation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possedeEtatValeur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telephone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climatiseur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horloge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CuisinePossede"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jardin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valeurBinaire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#JardinPossede"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fournitures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humidite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seTrouveDansSalon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuisine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seTrouveDansChambre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preferences"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#presenteDans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaz"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seTrouveDansGarage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intervalle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lampe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperaturePref"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#horraireTv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maison"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possedeEtatIntervalle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fumee"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valeurLumiere"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SalonPossede"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seTrouveDansBain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capteur"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valeurIntervalle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possedeEtatHorraire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possedeEtat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LumierePref"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lumiere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deshumificateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TV"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valeurTemp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TvPref"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ChambrePossede"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chauffage"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alarme"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arroseur"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binaire"/>
+        <Class IRI="#Etat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capteur"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chambre"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chauffage"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climatiseur"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuisine"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deshumificateur"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fenetre"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fournitures"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fumee"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garage"/>
+        <Class IRI="#Localisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaz"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horloge"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humidite"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intervalle"/>
+        <Class IRI="#Etat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jardin"/>
+        <Class IRI="#Localisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lampe"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Localisation"/>
+        <Class IRI="#Maison"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lumiere"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LumierePref"/>
+        <Class IRI="#Preferences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mouvement"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objets"/>
+        <Class IRI="#Maison"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piece"/>
+        <Class IRI="#Localisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porte"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalleDeBain"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salon"/>
+        <Class IRI="#Piece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TV"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telephone"/>
+        <Class IRI="#Fournitures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#Capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperaturePref"/>
+        <Class IRI="#Preferences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TvPref"/>
+        <Class IRI="#Preferences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volet"/>
+        <Class IRI="#Objets"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#BainPossede"/>
+        <ObjectProperty IRI="#possede"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ChambrePossede"/>
+        <ObjectProperty IRI="#possede"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CuisinePossede"/>
+        <ObjectProperty IRI="#possede"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#GaragePossede"/>
+        <ObjectProperty IRI="#possede"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#JardinPossede"/>
+        <ObjectProperty IRI="#possede"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SalonPossede"/>
+        <ObjectProperty IRI="#possede"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#possedeEtatHorraire"/>
+        <ObjectProperty IRI="#possedeEtat"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#possedeEtatIntervalle"/>
+        <ObjectProperty IRI="#possedeEtat"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#possedeEtatValeur"/>
+        <ObjectProperty IRI="#possedeEtat"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#seTrouveDansBain"/>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#seTrouveDansChambre"/>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#seTrouveDansCuisine"/>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#seTrouveDansGarage"/>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#seTrouveDansJardin"/>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#seTrouveDansSalon"/>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BainPossede"/>
+        <ObjectProperty IRI="#seTrouveDansBain"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ChambrePossede"/>
+        <ObjectProperty IRI="#seTrouveDansChambre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CuisinePossede"/>
+        <ObjectProperty IRI="#seTrouveDansCuisine"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GaragePossede"/>
+        <ObjectProperty IRI="#seTrouveDansGarage"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#JardinPossede"/>
+        <ObjectProperty IRI="#seTrouveDansJardin"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#SalonPossede"/>
+        <ObjectProperty IRI="#seTrouveDansSalon"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#possede"/>
+        <ObjectProperty IRI="#seTrouveDans"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BainPossede"/>
+        <Class IRI="#SalleDeBain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ChambrePossede"/>
+        <Class IRI="#Chambre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CuisinePossede"/>
+        <Class IRI="#Cuisine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GaragePossede"/>
+        <Class IRI="#Garage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#JardinPossede"/>
+        <Class IRI="#Jardin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SalonPossede"/>
+        <Class IRI="#Salon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possede"/>
+        <Class IRI="#Localisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possedeEtat"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possedeEtatIntervalle"/>
+        <Class IRI="#Intervalle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#presenteDans"/>
+        <Class IRI="#Personne"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seTrouveDans"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seTrouveDansBain"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seTrouveDansChambre"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seTrouveDansCuisine"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seTrouveDansGarage"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seTrouveDansJardin"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seTrouveDansSalon"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BainPossede"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ChambrePossede"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CuisinePossede"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GaragePossede"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#JardinPossede"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SalonPossede"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possede"/>
+        <Class IRI="#Objets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possedeEtat"/>
+        <Class IRI="#Etat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#presenteDans"/>
+        <Class IRI="#Localisation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seTrouveDans"/>
+        <Class IRI="#Localisation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seTrouveDansBain"/>
+        <Class IRI="#SalleDeBain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seTrouveDansChambre"/>
+        <Class IRI="#Chambre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seTrouveDansCuisine"/>
+        <Class IRI="#Cuisine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seTrouveDansGarage"/>
+        <Class IRI="#Garage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seTrouveDansJardin"/>
+        <Class IRI="#Jardin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seTrouveDansSalon"/>
+        <Class IRI="#Salon"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Personne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#horraireTv"/>
+        <Class IRI="#TvPref"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#Personne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valeurBinaire"/>
+        <Class IRI="#Binaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valeurIntervalle"/>
+        <Class IRI="#Intervalle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valeurLumiere"/>
+        <Class IRI="#LumierePref"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valeurTemp"/>
+        <Class IRI="#TemperaturePref"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#horraireTv"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valeurBinaire"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valeurIntervalle"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valeurLumiere"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valeurTemp"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
